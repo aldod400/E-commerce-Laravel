@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="(https://github.com/aldod400/E-commerce-Laravel/public/storage/images/icon/shopping-bag.png)" width="400" alt="Project Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="(https://github.com/aldod400/E-commerce-Laravel/storage/app/public/shopping-bag.png)" width="400" alt="Project Logo"></a></p>
 
 <p align="center">
 
