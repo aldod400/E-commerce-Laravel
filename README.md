@@ -1,6 +1,7 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="![shopping-bag](https://github.com/aldod400/E-commerce-Laravel/assets/97761259/8c4d6776-93db-4484-8100-e52767e80b91)" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="(https://github.com/aldod400/E-commerce-Laravel/storage/images/icon/shopping-bag.png)" width="400" alt="Project Logo"></a></p>
 
-<p align="center">
+<p align="center">![Uploading shopping-bag.png…]()
+
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
