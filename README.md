@@ -1,7 +1,7 @@
 <p
     align="center"
     style="text-align: center">
-    <img src="storage/app/public/shopping-bag.png" style="width: 400px;">
+    <img src="storage/app/public/shopping-bag.png" style="width: 400px;hieght:200px">
 </p>
 
 <h1 style="text-align: center;">Online Shopping</h1>
