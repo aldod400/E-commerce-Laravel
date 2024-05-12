@@ -1,3 +1,4 @@
+@section('title','Update Su Category')
 @extends('admin.layouts.admin')
 @section('content')
     <form action="{{ route('subcategories.update', $subcategory->id) }}" method="POST">
@@ -31,7 +32,7 @@
                                         <label for="category">Category</label>
                                         <select name="category" id="category" class="form-control">
                                             @foreach ($categories as $category)
-                                            <option value="{{ $category->id }}">{{ $category->name }}</option>
+                                            <option value="{{ $category->id }}" @selected($subcategory->category_id == $category->id)>{{ $category->name }}</option>
                                             @endforeach
                                         </select>
                                     </div>

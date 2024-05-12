@@ -1,3 +1,4 @@
+@section('title','Create Brands')
 @extends('admin.layouts.admin')
 @section('content')
     <form action="{{ route('brands.store') }}" method="POST">

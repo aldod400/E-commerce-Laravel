@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('password');
             $table->string('country')->nullable();
             $table->string('city')->nullable();
+            $table->string('status')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

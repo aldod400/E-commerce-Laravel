@@ -27,21 +27,21 @@ class Product extends Model
 
     public function category(){
 
-    return $this->belongsTo(Category::class);
+        return $this->belongsTo(Category::class);
     }
 
     public function Subcategory(){
 
-    return $this->belongsTo(Subcategory::class);
+        return $this->belongsTo(Subcategory::class);
     }
 
     public function Brand(){
 
-    return $this->belongsTo(Brand::class);
+        return $this->belongsTo(Brand::class);
     }
 
     public function order(){
 
-    return $this->belongsToMany(Order::class,'order_items','id','order_id','product_id','quntity','price');
+        return $this->belongsToMany(Order::class,'order_items','id','order_id','product_id','quntity','price');
     }
 }

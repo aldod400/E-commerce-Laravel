@@ -1,3 +1,4 @@
+@section('title','Creare Sub Category')
 @extends('admin.layouts.admin')
 @section('content')
     <form action="{{ route('subcategories.store') }}" method="POST">

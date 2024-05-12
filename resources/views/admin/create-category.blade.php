@@ -1,3 +1,4 @@
+@section('title','Create Category')
 @extends('admin.layouts.admin')
 @section('content')
     <!-- Content Wrapper. Contains page content -->

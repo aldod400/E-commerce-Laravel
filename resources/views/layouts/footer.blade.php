@@ -29,7 +29,11 @@
                             <li><a href="{{ route('login') }}" title="Sell">Login</a></li>
 						    <li><a href="{{ route('register') }}" title="Advertise">Register</a></li>
                         @endif
-						<li><a href="{{ route('account.orders',auth()->user()->id) }}" title="Contact Us">My Orders</a></li>
+						@if (Auth::check())
+                            <li><a href="{{ route('account.orders',auth()->user()->id) }}" title="Contact Us">My Orders</a></li>
+                        @else
+                            <li><a href="{{ route('login') }}" title="Contact Us">My Orders</a></li>
+                        @endif
 					</ul>
 				</div>
 			</div>

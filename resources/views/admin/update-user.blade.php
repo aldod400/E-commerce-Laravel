@@ -1,3 +1,4 @@
+@section('title','Update User')
 @extends('admin.layouts.admin')
 @section('content')
 			<!-- Content Wrapper. Contains page content -->
@@ -136,7 +137,7 @@
 											<label for="role">Role</label>
 											<select name="role" id="role" class="form-control @error('role') is-invalid @enderror">
                                                 @foreach ($roles as $role)
-                                                    <option value="{{ $role->id }}">{{ $role->title }}</option>
+                                                    <option value="{{ $role->id }}" @selected($user->role_id == $role->id)>{{ $role->title }}</option>
                                                 @endforeach
                                             </select>
                                             @error('role')

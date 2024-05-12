@@ -1,3 +1,4 @@
+@section('title','Order Details')
 @extends('admin.layouts.admin')
 @section('content')
 			<!-- Content Wrapper. Contains page content -->

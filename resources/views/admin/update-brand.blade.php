@@ -1,3 +1,4 @@
+@section('title','Update Brand')
 @extends('admin.layouts.admin')
 @section('content')
     <form action="{{ route('brands.update',$brand->id) }}" method="POST">
